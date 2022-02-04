@@ -1,0 +1,71 @@
+.site {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(104, 103, 103);
+}
+
+.weather-app {
+  border: 2px solid rgb(253, 127, 127);
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 30px;
+  max-width: 850px;
+}
+
+#city-input {
+  width: 335px;
+}
+
+.btn-success {
+  background-color: rgb(253, 127, 127) !important;
+  border-color: rgb(253, 127, 127) !important;
+}
+
+.btn-success:hover {
+  transition: all 200ms ease-in-out;
+  background-color: rgb(255, 60, 60) !important;
+  border-color: rgb(255, 60, 60) !important;
+}
+
+.bar {
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-size: 32px !important;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.col-6 {
+  text-align: right;
+}
+
+.emoji {
+  text-align: left !important;
+  font-size: 95px;
+  margin-left: 10px;
+}
+
+.temperature {
+  color: rgb(104, 103, 103);
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -21px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+}
