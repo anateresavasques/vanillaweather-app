@@ -24,7 +24,6 @@ function formatDate(date) {
 }
 
 function displayWeatherCondition(response) {
-  //console.log(response.data);
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
@@ -45,12 +44,8 @@ function searchCity(city) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  //let cityElement = document.querySelector("#city");
-  //let cityInput = document.querySelector("#city-input");
-  //cityElement.innerHTML = cityInput.value;
-  //make an api call to open weather API
-  //once i get the http response, we display the city name and the temperature
-  let city = document.querySelector("#city-input").value; //ir buscar informaçao que se escreve
+
+  let city = document.querySelector("#city-input").value;
   searchCity(city);
 }
 
