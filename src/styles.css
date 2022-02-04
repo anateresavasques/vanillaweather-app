@@ -104,3 +104,11 @@ li:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
+.footer {
+  text-align: center;
+}
+
+#link {
+  color: #242424;
+}
