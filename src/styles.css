@@ -1,9 +1,16 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(
+    circle at 7.4% 45.1%,
+    rgb(236, 206, 251) 0%,
+    rgb(205, 237, 246) 45.1%,
+    rgb(227, 251, 252) 78.4%,
+    rgb(230, 247, 235) 90%
+  );
 }
 
 h1 {
-  color: #313131;
+  color: #414141;
   font-size: 24px;
   font-weight: 100;
   font-weight: 400;
@@ -22,7 +29,7 @@ li {
   margin: 0;
   padding: 0;
   margin-bottom: 3px;
-  color: rgb(82, 82, 82);
+  color: rgb(77, 77, 77);
   font-size: 16px;
   font-weight: 150;
   line-height: 19px;
@@ -39,7 +46,8 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #ffffff;
+  background-color: #84eef5d0;
   border-radius: 5px;
 }
 
@@ -48,14 +56,15 @@ li:first-letter {
 }
 
 #searchButton {
-  background-color: #919090 !important;
-  border: #919090;
+  background-color: #ffffff !important;
+  border: #ffffff;
+  color: rgb(61, 61, 61);
 }
 
 #searchButton:hover {
   background-color: #e0dede !important;
   border: #dbd9d9;
-  color: #313131;
+  color: #414141;
 }
 
 .weather-temperature img {
@@ -65,7 +74,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: rgb(58, 58, 58);
   font-size: 55px;
   line-height: 1;
   font-weight: 400;
@@ -78,7 +87,7 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: rgb(49, 49, 49);
   cursor: default;
 }
 
@@ -89,7 +98,7 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: rgb(46, 46, 46);
 }
 
 .weather-forecast-date {
