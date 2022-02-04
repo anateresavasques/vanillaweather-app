@@ -47,6 +47,17 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
+#searchButton {
+  background-color: #919090 !important;
+  border: #919090;
+}
+
+#searchButton:hover {
+  background-color: #e0dede !important;
+  border: #dbd9d9;
+  color: #313131;
+}
+
 .weather-temperature img {
   margin-right: 5px;
   height: 64px;
