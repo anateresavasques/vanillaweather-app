@@ -46,6 +46,7 @@ h1 {
 
 li {
   list-style: none;
+  text-transform: capitalize;
 }
 
 .col-6 {
