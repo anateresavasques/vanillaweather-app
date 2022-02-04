@@ -16,8 +16,8 @@
   width: 335px;
 }
 
-#date {
-  margin-left: 20px;
+.inform {
+  margin-left: -10px;
 }
 
 #description {
@@ -77,7 +77,7 @@ li:first-letter {
 }
 
 .info {
-  margin-left: 20px;
+  margin-left: 22px;
 }
 
 .search-form {

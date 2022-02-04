@@ -52,10 +52,18 @@
 
         <h1 id="city"></h1>
         <ul>
-          <li id="date"></li>
+          <div class="inform">
+            <li>Last updated: <span id="date"></span></li>
+          </div>
           <li id="description"></li>
           <li>
-            <div class="emoji">&#9925;</div>
+            <div class="emoji">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="clear"
+                id="icon"
+              />
+            </div>
             <span class="temperature" id="temperature"></span
             ><span class="units">ºC | <a href="#">ºF</a></span>
           </li>
