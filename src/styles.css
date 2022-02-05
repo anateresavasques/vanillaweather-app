@@ -1,5 +1,6 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 600;
   background: radial-gradient(
     circle at 7.4% 45.1%,
     rgb(236, 206, 251) 0%,
@@ -15,7 +16,7 @@ h1 {
   font-weight: 100;
   font-weight: 400;
   line-height: 28px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 ul {
@@ -40,30 +41,48 @@ li:first-letter {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 650px;
+  margin: 80px auto;
 }
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #ffffffc4;
+  border-style: double;
+  border-width: 10px;
   background-color: #84eef5d0;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .overview {
   margin-bottom: 20px;
 }
 
+.col-9 {
+  margin-top: 15px;
+}
+
 #searchButton {
   background-color: #ffffff !important;
-  border: #ffffff;
+  border: #84eef5d0 1px solid;
   color: rgb(61, 61, 61);
 }
 
 #searchButton:hover {
   background-color: #e0dede !important;
-  border: #dbd9d9;
+  border: #84eef5d0 1px solid;
+  color: #414141;
+}
+
+#current-location-button {
+  background-color: #ffffff !important;
+  border: #84eef5d0 1px solid;
+  color: rgb(61, 61, 61);
+}
+
+#current-location-button:hover {
+  background-color: #e0dede !important;
+  border: #84eef5d0 1px solid;
   color: #414141;
 }
 
