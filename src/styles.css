@@ -1,13 +1,7 @@
 body {
   font-family: "Source Serif 4", sans-serif;
   font-weight: 600;
-  background: radial-gradient(
-    circle at 7.4% 45.1%,
-    rgb(236, 206, 251) 0%,
-    rgb(205, 237, 246) 45.1%,
-    rgb(227, 251, 252) 78.4%,
-    rgb(230, 247, 235) 90%
-  );
+  background-image: url("https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg");
 }
 
 h1 {
