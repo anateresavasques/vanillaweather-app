@@ -44,7 +44,7 @@ li:first-letter {
   border: 1px solid #f0e0ffc4;
   border-style: double;
   border-width: 10px;
-  background-color: #a0a0a0c7;
+  background-color: #c0c0c0c7;
   border-radius: 10px;
 }
 
@@ -58,25 +58,25 @@ li:first-letter {
 
 #searchButton {
   background-color: #ffffff !important;
-  border: #84eef5d0 1px solid;
+  border: #c0c0c0c7; 1px solid;
   color: rgb(61, 61, 61);
 }
 
 #searchButton:hover {
   background-color: #e0dede !important;
-  border: #84eef5d0 1px solid;
+  border: #c0c0c0c7; 1px solid;
   color: #414141;
 }
 
 #current-location-button {
   background-color: #ffffff !important;
-  border: #84eef5d0 1px solid;
+  border: #c0c0c0c7; 1px solid;
   color: rgb(61, 61, 61);
 }
 
 #current-location-button:hover {
   background-color: #e0dede !important;
-  border: #84eef5d0 1px solid;
+  border: #c0c0c0c7; 1px solid;
   color: #414141;
 }
 
