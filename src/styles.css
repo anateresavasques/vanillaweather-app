@@ -1,5 +1,5 @@
 body {
-  font-family: "Source Serif 4", sans-serif;
+  font-family: "Balsamiq Sans", cursive;
   font-weight: 600;
   background-image: url("https://www.decorfacil.com/wp-content/uploads/2018/04/20180425pigues-1200x900.jpg");
 }
@@ -58,25 +58,25 @@ li:first-letter {
 
 #searchButton {
   background-color: #ffffff !important;
-  border: #c0c0c0c7; 1px solid;
+  border: #c0c0c0c7 1px solid;
   color: rgb(61, 61, 61);
 }
 
 #searchButton:hover {
   background-color: #e0dede !important;
-  border: #c0c0c0c7; 1px solid;
+  border: #c0c0c0c7 1px solid;
   color: #414141;
 }
 
 #current-location-button {
   background-color: #ffffff !important;
-  border: #c0c0c0c7; 1px solid;
+  border: #c0c0c0c7 1px solid;
   color: rgb(61, 61, 61);
 }
 
 #current-location-button:hover {
   background-color: #e0dede !important;
-  border: #c0c0c0c7; 1px solid;
+  border: #c0c0c0c7 1px solid;
   color: #414141;
 }
 
